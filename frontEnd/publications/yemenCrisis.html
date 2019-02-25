@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Amnesty International - Yemen Crisis</title>
+
+	<link rel="stylesheet" type="text/css" href="/css/index.css">
+	<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+</head>
+<body> 
+
+  <nav class="nav animated fadeIn" id="navigation">
+    <a class="nav-link navigation-index" href="/">Amnesty International</a>
+    <a class="nav-link navigation-index" href="/publications.html">Articles</a>
+    <a class="nav-link navigation-index" href="/contact.html">Contact Us</a>
+    <a class="nav-link navigation-index" href="/signup.html">Login or Signup</a>
+  </nav>
+<div style="margin: auto;">
+  <img src="/saudi-driving.jpg" class="article-img">  
+</div><br>
+  <h1 class="header animated slideInLeft" style=" color: black; padding-bottom: 20px;">The Yemen Crisis</h1>
+
+  <h5 class="h5-author">
+     By Alex Xiang
+  </h5>
+  
+
+<p class="article-p">
+
+  According to the Guardian, the worst man-made crisis in recent memory was not the Syrian war, nor was it the eight-year conflict in Iraq. Instead, it can be traced to a country at the southern end of the Arabian Peninsula, Yemen. Since 2015, fierce fighting has erupted between the Houthi rebel forces and the Hadi government. According to UN sources, the fighting has claimed over 10,00 lives, as well as the lives of over 5,200 civilians. However, the crisis is not characterized by the brutal fighting, nor the persecution of religious minorities. The focus of the crisis instead lies with the millions of starving Yemeni people. The famine has been acknowledged by UN officials as “one of the worst famines in living memory.”<br><br>
+The Yemen crisis principly stems from the failure of a political transition intended to create peace in Yemen following the Arab Spring in 2011. Yemen’s longtime authoritarian president, Ali Abdullah Saleh, transferred power to his deputy, Abdrabbuh Mansour Hadi, hoping to establish peace in Yemen. However, Hadi faced numerous challenges once taking power, prompting the Houthi movement, mainly composed of Yemen’s Shia Muslim minority, to take control of the northern Saada province, initiating a 4-year conflict which has ultimately resulted in a stalemate. Various Sunni Arab states have contributed troops in support of Hadi’s government, forming a coalition fighting force. More recently, the Houthi fighting forces have employed the use of ballistic missiles, increasing tensions between the government and rebel forces.<br><br>
+While the 4-year conflict was brutal and has affected the lives of many, the more important aspect within the conflict is the man-made famine, threatening the lives of millions. The famine is a direct cause of the war, as fighting between Houthi rebels and the government has resulted in blockades of key ports and airports, drastically cutting food supplies. Moreover, the Saudi air force rapidly destroyed the various food sources used by the Yemenis, with their bombs consistently targeting agricultural land, dairy farms, food processing factories, and the markets where the food is sold. While the Saudis have defended themselves by stating that they are simultaneously starving the Houthi forces, the fact remains that ,according to the Guardian, over 85,000 children have already died from malnutrition since the start of the war. <br><br>
+Regardless of the thousands of casualties already sustained, there still lies hope for the 5 million Yemeni children on the brink of starvation if nations such as Canada act swiftly. Diseases such as cholera have had their worst outbreaks in Yemen’s history. There are several solutions to the devastating famine, all of which will not be simple. The first is the immediate relief available for the starving Yemeni people from a warehouse in Hodeida, which houses enough food to feed 3.7 million people for one month. The food has not been distributed due to a lack of crucial infrastructure, and the impact is apparent. The distribution of this food would be imperative to quell continuing starvation before long-term solutions can be found. <br><br>
+Longer-term solutions have one common theme: The ceasefire between the Houthis and the government. A ceasefire allows various government and non-profit aid organizations to flood the country with medicine, food, and other forms of aid. Without a ceasefire, the land in Yemen is far too dangerous for aid organizations to be operating in, as frequent Houthi or government attacks, bombings, and ballistic missile used threaten the lives of any non-profit worker setting foot in Yemen.<br><br> 
+I believe that the situation in Yemen is one where both the government and the Houthis have the power to save their people, yet are too preoccupied with fighting the war that they neglect the millions of starving Yemenis. The fighting is irrelevant if the country will be torn apart by malnutrition, bringing us to a famine that according to the UN, will be the worst in 100 years.<br><br>
+
+To what extent do military combatants have an obligation to maintain living conditions within the country for their people? 
+
+
+</p>
+
+  <div id="commentDiv" style="margin-top: 200px;">
+
+  	<h5 class="header-comment" style="color: white;">Post a comment here</h5>
+
+
+  	<form class="commentForm" action="postComment.php" method="post">
+
+      <label style="margin-top: 10px; color: white;">Name: </label><br>
+      <input type="text" name="username" id="username" placeholder="Display Name..."><br>
+
+
+     		<textarea name="comment" id="comment" rows="6" cols="50" required="required"></textarea><br>
+     		<button type="button" class="btn btn-dark btn-submit" style="margin-right: 25%;" onclick="postComment()">Post</button>
+  	</form>
+  </div>
+
+  <div id="comments">
+  	
+  </div>
+
+<script src="https://www.gstatic.com/firebasejs/5.5.9/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.5.9/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.6.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.5.9/firebase-database.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCqyVYu_f4_pIBSrWl4-e1jm1fC9HrnmCM",
+    authDomain: "amnestyinternational-a562d.firebaseapp.com",
+    databaseURL: "https://amnestyinternational-a562d.firebaseio.com",
+    projectId: "amnestyinternational-a562d",
+    storageBucket: "amnestyinternational-a562d.appspot.com",
+    messagingSenderId: "632967548977"
+  };
+  firebase.initializeApp(config);
+</script>
+<script src="/firebase.js"></script>
+</body>
+</html>

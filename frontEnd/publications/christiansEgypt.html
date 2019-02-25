@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Amnesty International - Christian's in Egypt</title>
+
+	<link rel="stylesheet" type="text/css" href="/css/index.css">
+	<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+</head>
+<body> 
+
+  <nav class="nav animated fadeIn" id="navigation">
+    <a class="nav-link navigation-index" href="/">Amnesty International</a>
+    <a class="nav-link navigation-index" href="/publications.html">Articles</a>
+    <a class="nav-link navigation-index" href="/contact.html">Contact Us</a>
+    <a class="nav-link navigation-index" href="/signup.html">Login or Signup</a>
+  </nav>
+<div style="margin: auto;">
+  <img src="/img/christians-egypt.jpg" class="article-img">  
+</div><br>
+  <h1 class="header animated slideInLeft" style=" color: black; padding-bottom: 20px;">Persecution of Christians in Egypt</h1>
+
+  <h5 class="h5-author">
+     By Daniel Botros
+  </h5>
+  
+
+<p class="article-p">
+
+  It is easy for us to undervalue our privilege of living in a free country where we do not constantly encounter violence and injustice. Under the Canadian Charter of Rights and Freedoms, we have many liberties that make our country great. Specifically, the freedom of religion and belief is a great example of how our country enforces equality. We prefer to think that we live in a progressive world where everyone experiences the same quality of freedom. However, all around the world, there is mass discrimination and persecution based upon religious biases. In spite of this, we completely refuse to believe the notion that we are still having these problems in the twenty-first century. And it is this naïve mentality that has prevented us from bringing a stop to these atrocities of our time.<br><br>
+Earlier this year, our publication wrote about the persecution of Rohingya Muslims in Myanmar, a predominantly Buddhist country. However, unlike the persecution of Rohingya Muslims, there are instances of discrimination dating back more than a millenia. For example, in the Middle East, persecution of Christians has dated back to the origin of the faith in the region. <br><br>
+Coptic Christians in Egypt, the largest Christian population in the Middle East, have faced unprecedented levels of persecution. The World Watch List classifies Egypt as one of the top ten most dangerous places for Christians to live in the world and has deemed the persecution level as extreme. There are several examples of violence against Christians in Egypt such as the attack on Palm Sunday of 2017. Two suicide bombers, both of which were associated with the Islamic State terrorist group, attacked churches in the cities of Tanta and Alexandria, killing forty-five and injuring one hundred others. This instance is an example of how the rise of Islamist groups has exacerbated the persecution of Coptic Christians. This increase is largely credited to the previous President of Egypt, Mohammed Morsi, who provided a great amount of support and funding to these extremist groups. Now, although the current President of Egypt, Abdel Fattah el-Sisi, has made several efforts to stop the violence against Christians, his government still allows these extremist groups to act with impunity against the Coptic Christian community, thus encouraging others to do the same. Again on May 30, 2017, thirty-five Egyptian Christians were killed and twenty-eight were wounded while traveling to a monastery. The gunmen tried to convert the group to Islam before opening fire on them. In the Middle East, Islam has been so distorted and perverted in order to justify the acts of violence against people who do not share their faith, especially Christians.<br><br>
+Although there is only a minority of violent extremists in Egypt compared to other countries in the Middle East, the major issue is that the culture in Egypt cherishes the perception that Christians are second-class citizens, leading to widespread marginalization and discrimination. Christians are overlooked for jobs and promotions, university students are often failed wrongfully, shop owners are boycotted, and hospital patients are not given proper treatment. They will always come second when it comes to areas of life such as employment, education, and access to basic amenities. It is only until this perception changes that Christians will truly be able live in peace in Egypt. <br><br>
+This past December, the UK launched a case study to review the persecution of Christians, with a focus on the Middle East. They noted that fifty years ago, Christians constituted for 20% of the Middle East’s demographics. That figure has dropped significantly to less than 5%. They fear that if the situation deteriorates, it will lead to the total eradication of entire Christian communities in the Middle East. The goal is to help analyze the levels of government support in these communities and suggest a comprehensive policy response. They also hope that by addressing the persecution of Christians in the Middle East, it will help address the persecution of other religious groups. <br><br>
+Examples of religious persecution and genocide remain prevalent all over the world. When we think back to the aftermath of the Second World War and the Holocaust, we tend to cling to a blind hope that humanity “has come a long way since then,” and that humanity will affirm with one voice: “Never again.” However, up until today, that has been nothing but an empty promise. It is tempting to see the Holocaust and other historical genocides as isolated incidents, but in reality, the same issues exist today, and the cycle of ignorance perpetuates the violence that we see today. This illusion of progress continues to plague our world, causing genocides to occur even in the twenty-first century. Instead, we must accept that there is a problem and work towards finding a solution. <br><br>
+
+
+
+</p>
+
+<h2 class="header" id="beSignedIn-christiansEgypt" style="display: none;">You need to sign in to be able to comment</h2>
+
+  <div class="commentDiv" style="margin-top: 200px;">
+
+  	<h5 class="header-comment" style="color: black;">Post a comment here</h5>
+
+
+  	<form class="commentForm" action="postComment.php" method="post">
+
+      <label style="margin-top: 10px; color: black;" id="christiansEgypt-name">Name: </label><br>
+
+
+     		<textarea name="comment" id="comment-christiansEgypt" rows="6" cols="50" required="required"></textarea><br>
+     		<button type="button" class="btn btn-dark btn-submit" style="margin-right: 25%;" onclick="postComment('christiansEgypt')">Post</button>
+  	</form>
+  </div>
+
+  <div id="comments-christiansEgypt">
+  	
+  </div>
+
+<script src="https://www.gstatic.com/firebasejs/5.5.9/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.5.9/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.6.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.5.9/firebase-database.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCqyVYu_f4_pIBSrWl4-e1jm1fC9HrnmCM",
+    authDomain: "amnestyinternational-a562d.firebaseapp.com",
+    databaseURL: "https://amnestyinternational-a562d.firebaseio.com",
+    projectId: "amnestyinternational-a562d",
+    storageBucket: "amnestyinternational-a562d.appspot.com",
+    messagingSenderId: "632967548977"
+  };
+  firebase.initializeApp(config);
+</script>
+<script src="/firebase.js"></script>
+</body>
+</html>

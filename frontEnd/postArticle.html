@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Amnesty Ucc - Post Article</title>
+
+	<link rel="stylesheet" type="text/css" href="/css/index.css">
+	<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+</head>
+<body>
+
+<h1 class="header">Post Article</h1>
+
+<div class="div-publish">
+	<form action="/articlePosted" method="post">
+		<label>Title of Article</label><br>
+		<input type="text" name="title" id="postArticle-title"><br><br>
+		<label>Author</label><br>
+		<input type="text" name="author" id="postArticle-auth"><br><br>
+		<label>Image</label><br>
+		<input type="file" name="file" id="postArticle-img"><br><br>
+		<label>Body</label><br>
+		<textarea style="width: 100%; height: 500px;" name="body" id="postArticle-body"></textarea><br><br>
+		<input type="submit" value="Post">
+	</form>	
+</div>
+
+<script src="https://www.gstatic.com/firebasejs/5.6.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.6.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-database.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCqyVYu_f4_pIBSrWl4-e1jm1fC9HrnmCM",
+    authDomain: "amnestyinternational-a562d.firebaseapp.com",
+    databaseURL: "https://amnestyinternational-a562d.firebaseio.com",
+    projectId: "amnestyinternational-a562d",
+    storageBucket: "amnestyinternational-a562d.appspot.com",
+    messagingSenderId: "632967548977"
+  };
+  firebase.initializeApp(config);
+</script>
+<script src="/firebase.js"></script>
+</body>
+</html>

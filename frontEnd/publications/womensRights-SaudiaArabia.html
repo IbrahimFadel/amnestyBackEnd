@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Amnesty International - Saudi Driving</title>
+
+	<link rel="stylesheet" type="text/css" href="/css/index.css">
+	<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+</head>
+<body> 
+
+  <nav class="nav animated fadeIn" id="navigation">
+    <a class="nav-link navigation-index" href="/">Amnesty International</a>
+    <a class="nav-link navigation-index" href="/publications.html">Articles</a>
+    <a class="nav-link navigation-index" href="/contact.html">Contact Us</a>
+    <a class="nav-link navigation-index" href="/signup.html">Login or Signup</a>
+  </nav>
+<div style="margin: auto;">
+  <img src="/img/saudi-driving.png" class="article-img">  
+  <p class="header">Following the new law, Saudi Arabia has set up driving workshops exclusively for women </p>
+</div><br>
+  <h1 class="header animated slideInLeft" style=" color: black; padding-bottom: 20px;">Why are Saudi Women not Allowed to Drive?</h1>
+
+  <h5 class="h5-author">
+     By John Papanikolaou
+  </h5>
+  
+
+<p class="article-p">
+
+  Out of all developed countries in the world, Saudi Arabia is the one with both the most numerous and severe violations of human rights. Notably, women’s rights have been an area that has been consistently violated.<br><br>
+
+  Last June, Saudi Arabia allowed women to drive, provided that they had a pre-existing license from other countries. Hailed as a victory for women in the kingdom, many thought that Saudi Arabia, under the leadership of the young and dynamic Crown Prince Mohammed Bin Salman, was on the verge of a positive shift in societal values.<br><br>
+
+  The pertinent question remaining, however, is why they decided to legalize women driving. In the weeks leading up to the legalization, several activists who campaigned for the rights of women were jailed. Furthermore, following the undoing of the ban, none of these activists were released. More chillingly, women's’ rights organizations such as the Human Rights Watch reported that many of these activists were tortured in custody. In addition, the Saudi government purposely did not remove roadblocks to women attaining their licenses. The New York Times reports that there exists a serious shortage of training programs, and a lack of effort by the kingdom to provide them.<br><br>
+
+
+
+  The poor way in which Saudi Arabia carried out this transition hints at something deeper - that they were not social reforms. Why would Saudi Arabia want to legalize women driving if it did not strengthen their position in society? Clearly, the leaders of the authoritarian regime in Saudi Arabia have nothing to gain by having women in higher positions, apart from the positive side effect of receiving good press. The answer is economic necessity. The increasing population and decrease in oil prices means that Saudi Arabia was not as prosperous as it once was. The upshot of this economic struggle is that families could no longer afford drivers for women. Pre-reform, most women commuted by taxi or by male chauffeurs. The kingdom’s consideration of the economic needs of families who have been impacted by the harmed economy is part of the Saudi Vision 2030 strategic plan, which intends to help this poorer demographic.<br><br>
+
+Another way in which the legalization of women driving promotes Vision 2030 is that it promotes its goal of having women replace migrant workers in low-ranking jobs. Since Saudi Arabia has a hot climate, it is difficult to commute on foot. As a result, Saudi Arabia intends to allow women to drive so they can work. Only allowing women to work in low-level jobs, however, can impede the higher-level education of women in Saudi Arabia. When women are less educated than men, it harms their social mobility as they will not be as qualified. Thus, allowing women to drive with the intent of taking them to low level jobs is actually a move made in the best interests of female citizens. Instead, enabling them to move into these low-level jobs is a calculated move made for the good of their economy, and not for that of the people.<br><br>
+
+Overall, what does the reform of driving rights for women represent? An economic ploy, falsely heralded as a major victory for women in the kingdom. Don’t get your hopes up just yet.
+
+</p>
+
+<h2 class="header" id="beSignedIn-womensRights-SaudiaArabia" style="display: none;">You need to sign in to be able to comment</h2>
+
+  <div class="commentDiv" style="margin-top: 200px;">
+
+  	<h5 class="header-comment" style="color: black;">Post a comment here</h5>
+
+
+  	<form class="commentForm" action="postComment.php" method="post">
+
+      <label style="margin-top: 10px; color: black;" id="womensRights-SaudiaArabia-name">Name: </label><br>
+
+
+     		<textarea name="comment" id="comment-womensRights-SaudiaArabia" rows="6" cols="50" required="required"></textarea><br>
+     		<button type="button" class="btn btn-dark btn-submit" style="margin-right: 25%;" onclick="postComment('womensRights-SaudiaArabia')">Post</button>
+  	</form>
+  </div>
+
+  <div id="comments-womensRights-SaudiaArabia">
+  </div>
+
+<script src="https://www.gstatic.com/firebasejs/5.5.9/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.5.9/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.6.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.5.9/firebase-database.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCqyVYu_f4_pIBSrWl4-e1jm1fC9HrnmCM",
+    authDomain: "amnestyinternational-a562d.firebaseapp.com",
+    databaseURL: "https://amnestyinternational-a562d.firebaseio.com",
+    projectId: "amnestyinternational-a562d",
+    storageBucket: "amnestyinternational-a562d.appspot.com",
+    messagingSenderId: "632967548977"
+  };
+  firebase.initializeApp(config);
+</script>
+<script src="/firebase.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!-- AUTO GENERATED CODE !-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Amnesty International - </title>
+<link rel="stylesheet" type="text/css" href="/css/index.css">
+<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+</head>
+<body>
+<nav class="nav animated fadeIn" id="navigation">
+<a class="nav-link navigation-index" href="/">Amnesty International</a>
+<a class="nav-link navigation-index" href="/publications.html">Articles</a>
+<a class="nav-link navigation-index" href="/contact.html">Contact Us</a>
+<a class="nav-link navigation-index" href="/signup.html">Login or Signup</a>
+</nav>
+<div style="margin: auto;">
+<img src="/img/" class="article-img">
+</div><br>
+<h1 class="header animated slideInLeft" style="color: black; padding-bottom: 20px;"></h1>
+<h5 class="h5-author">
+By 
+</h5>
+<p class="article-p">
+
+</p>
+<h2 class="header" id="beSignedIn-" style="display: none;">You need to sign in to be able to comment</h2>
+<div class="commentDiv" style="margin-top: 200px;">
+<h5 class="header-comment" style="color: black;">Post a comment here</h5>
+<form class="commentForm" action="postComment.php" method="post">
+<label style="margin-top: 10px; color: black;" id="-name">Name: </label><br>
+<textarea name="comment" id="comment-" rows="6" cols="50" required="required"></textarea><br>
+<button type='button' class='btn btn-dark btn-submit' style='margin-right: 25%;'onclick="postComment('')">Post</button>
+</form>
+</div>
+<div id="comments-"></div>
+<script src="https://www.gstatic.com/firebasejs/5.5.9/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.5.9/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.6.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.5.9/firebase-database.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+var config = {apiKey: "AIzaSyCqyVYu_f4_pIBSrWl4-e1jm1fC9HrnmCM",authDomain: "amnestyinternational-a562d.firebaseapp.com", databaseURL: "https://amnestyinternational-a562d.firebaseio.com", projectId: "amnestyinternational-a562d", storageBucket: "amnestyinternational-a562d.appspot.com", messagingSenderId: "632967548977" };
+firebase.initializeApp(config);
+</script>
+<script src="/firebase.js"></script>
+</body>
+</html>
